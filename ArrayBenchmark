@@ -8,3 +8,6 @@ def benchmark():
     result = 0
     for i in data:
         result += i
+    end = time.perf_counter()
+    print("Time elapsed: ", end - start, "seconds")
+benchmark()
