@@ -13,3 +13,4 @@ def benchmark():
             
     end = time.perf_counter()
     print("Time elapsed: ", end - start, "seconds")
+benchmark()
